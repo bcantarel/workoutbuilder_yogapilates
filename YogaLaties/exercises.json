@@ -1,0 +1,178 @@
+[
+  {
+    "id": "11111111-0000-0000-0000-000000000001",
+    "name": "Mountain Pose",
+    "category": "Yoga",
+    "durationSeconds": 30,
+    "imageName": "mountain_pose",
+    "coachCue": "Let's start right here — feet together, arms soft at your sides. Feel the floor rise up to meet you and just... stand tall. It sounds simple, but this pose quietly wakes up nearly every muscle in your body and builds the kind of posture you'll notice in a few weeks. Breathe in slowly through your nose... and let it all go. Keep at it every day — the results sneak up on you!"
+  },
+  {
+    "id": "11111111-0000-0000-0000-000000000002",
+    "name": "Downward Dog",
+    "category": "Yoga",
+    "durationSeconds": 30,
+    "imageName": "downward_dog",
+    "coachCue": "Come on down to all fours and let's make that beautiful V-shape. Spread your fingers wide, tuck your toes, and lift your hips up and back. Let your head hang free — no tension in the neck. Here's something cool: this pose sends a fresh rush of blood to your brain, which is why you often feel calmer and sharper coming out of it. Breathe into the back of your ribs... and feel that spine lengthen. Stretching your spine will help stimulate your body!"
+  },
+  {
+    "id": "11111111-0000-0000-0000-000000000003",
+    "name": "Warrior I",
+    "category": "Yoga",
+    "durationSeconds": 40,
+    "imageName": "warrior_one",
+    "coachCue": "Step forward, bend that front knee, and reach your arms up alongside your ears — like you own the room. Square your hips to the front and hold that gaze. Warrior I fires up the thighs, calves, and ankles, and opens your chest so your lungs can take in more air. Keep breathing steadily — inhale to grow taller, exhale to sink a little deeper. Let's get fired up!"
+  },
+  {
+    "id": "11111111-0000-0000-0000-000000000004",
+    "name": "Child's Pose",
+    "category": "Yoga",
+    "durationSeconds": 60,
+    "imageName": "childs_pose",
+    "coachCue": "This one is just for you. From kneeling, ease your hips back toward your heels and reach your arms long out in front, resting your forehead gently on the mat. Child's Pose calms the nervous system and gently unravels tension all along the spine — it's a reset button for your whole body. Let your breath slow down on its own. Each exhale, just let go a little more. You're doing beautifully."
+  },
+  {
+    "id": "11111111-0000-0000-0000-000000000005",
+    "name": "Tree Pose",
+    "category": "Yoga",
+    "durationSeconds": 60,
+    "imageName": "tree_pose",
+    "coachCue": "Let's test that balance — shift your weight onto one foot and bring the sole of your other foot to your inner thigh or calf, never the knee. Press your palms together at your heart, or reach them up like branches. Even just 30 seconds of this each day has been shown to improve coordination and core stability. Find your breath, find your gaze, find your stillness. Let's work on your coordination!"
+  },
+  {
+    "id": "22222222-0000-0000-0000-000000000001",
+    "name": "The Hundred",
+    "category": "Pilates",
+    "durationSeconds": 120,
+    "imageName": "pilates_hundred",
+    "coachCue": "Here we go — lie back, hug your knees in, and curl your head and shoulders up. Legs out to 45 degrees, arms pumping in small, tight pulses. In for five... out for five. The Hundred warms up your entire core while training your body to breathe with intention — it's the classic Pilates opener for a reason. This exercise works your core muscles. Keep that navel pulled in tight — you've got this!"
+  },
+  {
+    "id": "22222222-0000-0000-0000-000000000002",
+    "name": "Roll Up",
+    "category": "Pilates",
+    "durationSeconds": 45,
+    "imageName": "pilates_rollup",
+    "coachCue": "Lie all the way flat, arms stretched up overhead. Breathe in... and on a long exhale, peel your spine off the mat one vertebra at a time, reaching forward past your toes. Take your time — there's no rush here. The Roll Up activates your deep abdominals far more than a regular sit-up ever could. When you're pushing yourself, remember to keep breathing. Work towards strong, firm abs!"
+  },
+  {
+    "id": "22222222-0000-0000-0000-000000000003",
+    "name": "Single Leg Stretch",
+    "category": "Pilates",
+    "durationSeconds": 40,
+    "imageName": "pilates_single_leg_stretch",
+    "coachCue": "Curl those shoulders up, draw one knee in, and send the other leg long — then switch. Smooth and steady, like a metronome. Keep your lower back pressed firmly into the mat the whole time. This one challenges your core and your coordination at the same time, building the kind of strength you feel in everyday life. Breathe in for two, out for two. Firm up those abs and keep the rhythm going!"
+  },
+  {
+    "id": "22222222-0000-0000-0000-000000000004",
+    "name": "Plank",
+    "category": "Pilates",
+    "durationSeconds": 30,
+    "imageName": "pilates_plank",
+    "coachCue": "Come on up — hands under shoulders, toes tucked, one long straight line from the crown of your head to your heels. Draw your navel in and up, and don't let those hips sag. Plank works your arms, shoulders, core, and legs all at once — it's one of the most efficient things you can do for your body. Keep breathing, nice and steady. Let's work on building a strong upper body!"
+  },
+  {
+    "id": "22222222-0000-0000-0000-000000000005",
+    "name": "Swan Dive",
+    "category": "Pilates",
+    "durationSeconds": 35,
+    "imageName": "pilates_swan",
+    "coachCue": "Lie on your stomach and place your hands beneath your shoulders. Gently press up and lift your chest forward — rolling your shoulders back and down, away from your ears. Think: proud, open, expansive. Swan undoes the effects of sitting and screen time, opening the front of your body and strengthening the whole length of your spine. Breathe into your chest as you rise. This pose strengthens the back and improves posture!"
+  },
+  {
+    "id": "11111111-0000-0000-0000-000000000006",
+    "name": "Cobra Pose",
+    "category": "Yoga",
+    "durationSeconds": 30,
+    "imageName": "cobra_pose",
+    "coachCue": "Lying face down, bring your palms under your shoulders and slowly press up — chest forward and up, hips grounded, elbows soft. Cobra strengthens the muscles along your spine and stimulates the abdominal organs. Some yogis even say it helps with digestion! Inhale deeply as you lift and expand... exhale to ease back down with care. Feel the stretch through your spine — you're doing great!"
+  },
+  {
+    "id": "11111111-0000-0000-0000-000000000007",
+    "name": "Bridge Pose",
+    "category": "Yoga",
+    "durationSeconds": 40,
+    "imageName": "bridge_pose",
+    "coachCue": "Lie on your back, knees bent, feet hip-width apart and flat on the mat. Press firmly through your feet and slowly lift your hips toward the ceiling — squeeze those glutes at the top and hold. Bridge strengthens the entire back side of your body — glutes, hamstrings, and lower back — while releasing tight hip flexors. Your lower body is key for support. Breathe steadily... and hold strong!"
+  },
+  {
+    "id": "11111111-0000-0000-0000-000000000008",
+    "name": "Cat Stretch",
+    "category": "Yoga",
+    "durationSeconds": 30,
+    "imageName": "cat_stretch",
+    "coachCue": "From all fours, exhale slowly as you round your entire spine toward the ceiling — chin tucked, tailbone under, like a startled cat. This gentle movement mobilizes each vertebra on its own, relieves back tension, and improves circulation to the spinal discs. Really breathe all the air out as you round... and hold for just a moment at the top. Stretching your spine will help stimulate your body!"
+  },
+  {
+    "id": "11111111-0000-0000-0000-000000000009",
+    "name": "Cow Stretch",
+    "category": "Yoga",
+    "durationSeconds": 30,
+    "imageName": "cow_stretch",
+    "coachCue": "Now flow the other way — inhale as you drop your belly toward the mat, lift your chest, lift your tailbone, and let your gaze rise gently. Cow Stretch opens the front of your body and is thought to stimulate the kidneys and adrenal glands, giving you a little natural energy boost. Let your inhale be full and wide — really fill up. Feel that beautiful stretch through your spine!"
+  },
+  {
+    "id": "22222222-0000-0000-0000-000000000006",
+    "name": "Swimming",
+    "category": "Pilates",
+    "durationSeconds": 40,
+    "imageName": "swimming",
+    "coachCue": "Lie face down, arms long overhead. Lift your arms, chest, and legs off the mat... and flutter. Alternate opposite arm and leg in a quick, controlled rhythm — like you're cutting through water. Swimming builds serious strength through the back, glutes, and hamstrings, while your core holds everything steady. Breathe in for five flutters, out for five. Exercise every day to tone your body!"
+  },
+  {
+    "id": "11111111-0000-0000-0000-000000000010",
+    "name": "Chair Pose",
+    "category": "Yoga",
+    "durationSeconds": 35,
+    "imageName": "chair_pose",
+    "coachCue": "Feet together — now bend those knees and sink your hips back, like there's an invisible chair behind you just waiting. Arms reach up alongside your ears. Chair Pose builds serious heat and tones the thighs, calves, and glutes deeply. It burns because it works! Time to firm up your thighs and back muscles. Keep breathing... you've got more in you than you think!"
+  },
+  {
+    "id": "22222222-0000-0000-0000-000000000007",
+    "name": "The Roll-Over",
+    "category": "Pilates",
+    "durationSeconds": 40,
+    "imageName": "the_roll_over",
+    "coachCue": "Lie on your back and float your legs up to 90 degrees. On a slow exhale, use your deep abdominals to roll your hips off the mat and bring your feet overhead — then lower back down one vertebra at a time, with total control. The Roll-Over massages every vertebra of the spine while building real core strength. When you're working hard, remember to keep breathing — never hold your breath through the roll!"
+  },
+  {
+    "id": "22222222-0000-0000-0000-000000000008",
+    "name": "Rolling Like a Ball",
+    "category": "Pilates",
+    "durationSeconds": 35,
+    "imageName": "rolling_like_a_ball",
+    "coachCue": "Sit back, hug your knees into your chest, and round your spine into a smooth C-curve. Now rock — back to your shoulder blades, forward to balance on your tailbone. Never let your feet touch the mat! This playful move massages the full length of the spine and sharpens your core control. Breathe out as you roll back, in as you return. Let's work on your coordination — and have fun with it!"
+  },
+  {
+    "id": "22222222-0000-0000-0000-000000000009",
+    "name": "Open Leg Rocker",
+    "category": "Pilates",
+    "durationSeconds": 40,
+    "imageName": "open_leg_rocker",
+    "coachCue": "Balance on your tailbone, hold your ankles, and extend your legs wide into a proud V. Rock back to your shoulder blades... and roll right back up to balance. Keep that V the whole time — no touching the mat! Open Leg Rocker deeply stretches the hamstrings while training the long, supple spinal mobility we all want to hold onto. Exhale back, inhale up. Stabilize your upper body — you're doing amazing!"
+  },
+  {
+    "id": "22222222-0000-0000-0000-000000000010",
+    "name": "Saw",
+    "category": "Pilates",
+    "durationSeconds": 35,
+    "imageName": "saw",
+    "coachCue": "Sit tall, legs wide, arms stretched out to your sides. Rotate your torso and reach your front hand toward your opposite little toe — like you're sawing it off — exhaling every last bit of air as you go. The Saw wrings tension from your spine and gives your organs a gentle refresh, making it one of the most satisfying exercises in Pilates. Big inhale as you sit back up tall. Exercise every day to tone your body!"
+  },
+  {
+    "id": "22222222-0000-0000-0000-000000000011",
+    "name": "Double Leg Kick",
+    "category": "Pilates",
+    "durationSeconds": 35,
+    "imageName": "double_leg_kick",
+    "coachCue": "Lie on your stomach, hands clasped at the small of your back. Exhale as you pulse both heels toward your glutes — one, two — then inhale and extend your legs long, lifting your chest and arms back, opening wide through the shoulders. Double Leg Kick fires up the glutes and hamstrings and is a wonderful stretch for anyone who sits at a desk. Keep that breathing rhythmic. Time to firm up your thighs and back muscles — let's go!"
+  },
+  {
+    "id": "11111111-0000-0000-0000-000000000011",
+    "name": "Sun Salutation",
+    "category": "Yoga",
+    "durationSeconds": 60,
+    "imageName": "sun_salutation",
+    "coachCue": "Here we are — the grand finale. Flow through each position with your breath leading the way: reach up to inhale, fold to exhale, step back, lower down, rise through Cobra, lift to Downward Dog, and return. Move with intention, never rushing. A daily Sun Salutation has been shown to improve cardiovascular fitness, flexibility, and mental wellbeing all in one go. Let your breath guide every single movement. That was a great workout — you should be really proud of yourself!"
+  }
+]

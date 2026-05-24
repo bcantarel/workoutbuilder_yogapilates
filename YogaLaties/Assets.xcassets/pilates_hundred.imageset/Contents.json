@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Pilates_The_Hundred.thumbnail60.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Pilates_The_Hundred.thumbnail120.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Pilates_The_Hundred.thumbnail180.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

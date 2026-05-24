@@ -1,0 +1,23 @@
+{
+  "images": [
+    {
+      "filename": "Double_Leg_Kick.thumbnail60.png",
+      "idiom": "universal",
+      "scale": "1x"
+    },
+    {
+      "filename": "Double_Leg_Kick.thumbnail120.png",
+      "idiom": "universal",
+      "scale": "2x"
+    },
+    {
+      "filename": "Double_Leg_Kick.thumbnail180.png",
+      "idiom": "universal",
+      "scale": "3x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}
