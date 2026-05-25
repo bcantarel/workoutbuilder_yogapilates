@@ -175,7 +175,7 @@ struct ExerciseRowView: View {
 
             // Name + duration stacked vertically.
             VStack(alignment: .leading, spacing: 3) {
-                Text(exercise.name)
+                Text(exercise.displayName)
                     .font(.body)
                     .fontWeight(.medium)
                     .foregroundStyle(.primary)
@@ -278,7 +278,7 @@ struct ExerciseDetailView: View {
                         .foregroundStyle(categoryColor)
                         .padding(.horizontal)
 
-                    Text(exercise.coachCue)
+                    Text(exercise.displayCoachCue)
                         .font(.body)
                         .foregroundStyle(.primary)
                         .lineSpacing(4)
@@ -293,7 +293,7 @@ struct ExerciseDetailView: View {
             }
             .padding(.bottom, 32)
         }
-        .navigationTitle(exercise.name)
+        .navigationTitle(exercise.displayName)
         .navigationBarTitleDisplayMode(.inline)
     }
 }

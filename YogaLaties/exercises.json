@@ -5,7 +5,17 @@
     "category": "Yoga",
     "durationSeconds": 30,
     "imageName": "mountain_pose",
-    "coachCue": "Let's start right here — feet together, arms soft at your sides. Feel the floor rise up to meet you and just... stand tall. It sounds simple, but this pose quietly wakes up nearly every muscle in your body and builds the kind of posture you'll notice in a few weeks. Breathe in slowly through your nose... and let it all go. Keep at it every day — the results sneak up on you!"
+    "coachCue": "Let's start right here — feet together, arms soft at your sides. Feel the floor rise up to meet you and just... stand tall. It sounds simple, but this pose quietly wakes up nearly every muscle in your body and builds the kind of posture you'll notice in a few weeks. Breathe in slowly through your nose... and let it all go. Keep at it every day — the results sneak up on you!",
+    "localizedNames": {
+      "fr": "La Montagne",
+      "es": "Postura de la Montaña",
+      "pt": "Postura da Montanha"
+    },
+    "localizedCoachCues": {
+      "fr": "Commençons ici — pieds joints, bras détendus le long du corps. Sentez le sol vous soutenir et tenez-vous simplement... droit. Ça paraît simple, mais cette posture réveille discrètement presque chaque muscle de votre corps. Respirez lentement par le nez... et relâchez tout. Pratiquez chaque jour — les résultats arrivent sans qu'on s'en rende compte !",
+      "es": "Empecemos aquí — pies juntos, brazos relajados a los lados. Siente el suelo elevarse hacia ti y simplemente... mantente erguido. Suena simple, pero esta postura despierta casi todos los músculos de tu cuerpo. Respira lentamente por la nariz... y suéltalo todo. Practícalo cada día — los resultados llegan sin que te des cuenta.",
+      "pt": "Vamos começar aqui — pés juntos, braços relaxados ao lado do corpo. Sinta o chão te sustentando e simplesmente... fique ereto. Parece simples, mas essa postura desperta quase todos os músculos do seu corpo. Respire lentamente pelo nariz... e solte tudo. Pratique todos os dias — os resultados aparecem sem que você perceba!"
+    }
   },
   {
     "id": "11111111-0000-0000-0000-000000000002",
@@ -13,7 +23,17 @@
     "category": "Yoga",
     "durationSeconds": 30,
     "imageName": "downward_dog",
-    "coachCue": "Come on down to all fours and let's make that beautiful V-shape. Spread your fingers wide, tuck your toes, and lift your hips up and back. Let your head hang free — no tension in the neck. Here's something cool: this pose sends a fresh rush of blood to your brain, which is why you often feel calmer and sharper coming out of it. Breathe into the back of your ribs... and feel that spine lengthen. Stretching your spine will help stimulate your body!"
+    "coachCue": "Come on down to all fours and let's make that beautiful V-shape. Spread your fingers wide, tuck your toes, and lift your hips up and back. Let your head hang free — no tension in the neck. Here's something cool: this pose sends a fresh rush of blood to your brain, which is why you often feel calmer and sharper coming out of it. Breathe into the back of your ribs... and feel that spine lengthen. Stretching your spine will help stimulate your body!",
+    "localizedNames": {
+      "fr": "Le Chien Tête en Bas",
+      "es": "El Perro Boca Abajo",
+      "pt": "Cachorro Olhando para Baixo"
+    },
+    "localizedCoachCues": {
+      "fr": "Descendez à quatre pattes et formons ce beau V. Écartez bien les doigts, rentrez les orteils et levez les hanches vers le haut et l'arrière. Laissez la tête pendre librement — aucune tension dans le cou. Fait amusant : cette posture envoie un afflux de sang frais vers le cerveau, ce qui explique pourquoi on se sent souvent plus calme et plus alerte en sortant. Respirez dans le dos des côtes... et sentez la colonne s'allonger.",
+      "es": "Baja a cuatro patas y hagamos esa hermosa V. Separa los dedos, mete los dedos de los pies y eleva las caderas hacia arriba y atrás. Deja la cabeza colgar libremente — sin tensión en el cuello. Dato curioso: esta postura envía un flujo fresco de sangre al cerebro, por eso sueles sentirte más tranquilo y alerta al salir. Respira hacia la parte posterior de las costillas... y siente cómo se alarga la columna.",
+      "pt": "Desça para a posição de quatro apoios e vamos fazer aquele belo formato de V. Espalhe os dedos, dobre os dedos dos pés e levante os quadris para cima e para trás. Deixe a cabeça pendurada livremente — sem tensão no pescoço. Curiosidade: essa postura envia um fluxo fresco de sangue para o cérebro, por isso você costuma se sentir mais calmo e alerta ao sair. Respire pelas costas das costelas... e sinta a coluna se alongando."
+    }
   },
   {
     "id": "11111111-0000-0000-0000-000000000003",
@@ -21,7 +41,17 @@
     "category": "Yoga",
     "durationSeconds": 40,
     "imageName": "warrior_one",
-    "coachCue": "Step forward, bend that front knee, and reach your arms up alongside your ears — like you own the room. Square your hips to the front and hold that gaze. Warrior I fires up the thighs, calves, and ankles, and opens your chest so your lungs can take in more air. Keep breathing steadily — inhale to grow taller, exhale to sink a little deeper. Let's get fired up!"
+    "coachCue": "Step forward, bend that front knee, and reach your arms up alongside your ears — like you own the room. Square your hips to the front and hold that gaze. Warrior I fires up the thighs, calves, and ankles, and opens your chest so your lungs can take in more air. Keep breathing steadily — inhale to grow taller, exhale to sink a little deeper. Let's get fired up!",
+    "localizedNames": {
+      "fr": "Le Guerrier I",
+      "es": "El Guerrero I",
+      "pt": "Guerreiro I"
+    },
+    "localizedCoachCues": {
+      "fr": "Faites un grand pas en avant, pliez le genou avant et levez les bras à hauteur des oreilles — comme si vous possédiez la salle. Alignez vos hanches vers l'avant et maintenez ce regard. Le Guerrier I active les cuisses, les mollets et les chevilles, et ouvre la poitrine pour que vos poumons puissent accueillir plus d'air. Continuez à respirer régulièrement — inspirez pour grandir, expirez pour descendre un peu plus.",
+      "es": "Da un paso al frente, dobla esa rodilla delantera y sube los brazos junto a las orejas — como si fueras el dueño del lugar. Cuadra las caderas hacia el frente y mantén esa mirada. El Guerrero I activa los muslos, pantorrillas y tobillos, y abre el pecho para que tus pulmones puedan tomar más aire. Sigue respirando de forma constante — inhala para crecer, exhala para hundirte un poco más.",
+      "pt": "Dê um passo à frente, dobre o joelho da frente e levante os braços ao lado das orelhas — como se você fosse o dono do espaço. Quadre os quadris para a frente e mantenha o olhar. O Guerreiro I ativa as coxas, panturrilhas e tornozelos, e abre o peito para os pulmões receberem mais ar. Continue respirando de forma constante — inspire para crescer, expire para afundar um pouco mais."
+    }
   },
   {
     "id": "11111111-0000-0000-0000-000000000004",
@@ -29,7 +59,17 @@
     "category": "Yoga",
     "durationSeconds": 60,
     "imageName": "childs_pose",
-    "coachCue": "This one is just for you. From kneeling, ease your hips back toward your heels and reach your arms long out in front, resting your forehead gently on the mat. Child's Pose calms the nervous system and gently unravels tension all along the spine — it's a reset button for your whole body. Let your breath slow down on its own. Each exhale, just let go a little more. You're doing beautifully."
+    "coachCue": "This one is just for you. From kneeling, ease your hips back toward your heels and reach your arms long out in front, resting your forehead gently on the mat. Child's Pose calms the nervous system and gently unravels tension all along the spine — it's a reset button for your whole body. Let your breath slow down on its own. Each exhale, just let go a little more. You're doing beautifully.",
+    "localizedNames": {
+      "fr": "La Posture de l'Enfant",
+      "es": "La Postura del Niño",
+      "pt": "Postura da Criança"
+    },
+    "localizedCoachCues": {
+      "fr": "Celle-ci est juste pour vous. À genoux, laissez vos hanches revenir vers vos talons et étendez vos bras loin devant vous, le front posé doucement sur le tapis. La Posture de l'Enfant calme le système nerveux et dissout doucement la tension tout le long de la colonne — c'est le bouton de réinitialisation de votre corps. Laissez votre respiration ralentir d'elle-même. À chaque expiration, lâchez prise un peu plus. Vous faites magnifiquement.",
+      "es": "Esta es solo para ti. Desde arrodillado, lleva tus caderas hacia tus talones y extiende los brazos largos hacia adelante, apoyando la frente suavemente en la esterilla. La Postura del Niño calma el sistema nervioso y libera suavemente la tensión a lo largo de la columna — es el botón de reinicio de todo tu cuerpo. Deja que tu respiración se ralentice sola. Con cada exhalación, suéltate un poco más. Lo estás haciendo de maravilla.",
+      "pt": "Esta é só para você. Da posição ajoelhada, leve os quadris em direção aos calcanhares e estenda os braços à frente, apoiando a testa suavemente no tapete. A Postura da Criança acalma o sistema nervoso e libera suavemente a tensão ao longo da coluna — é o botão de reinicialização de todo o seu corpo. Deixe sua respiração desacelerar por conta própria. A cada expiração, solte um pouco mais. Você está indo lindamente."
+    }
   },
   {
     "id": "11111111-0000-0000-0000-000000000005",
@@ -37,7 +77,17 @@
     "category": "Yoga",
     "durationSeconds": 60,
     "imageName": "tree_pose",
-    "coachCue": "Let's test that balance — shift your weight onto one foot and bring the sole of your other foot to your inner thigh or calf, never the knee. Press your palms together at your heart, or reach them up like branches. Even just 30 seconds of this each day has been shown to improve coordination and core stability. Find your breath, find your gaze, find your stillness. Let's work on your coordination!"
+    "coachCue": "Let's test that balance — shift your weight onto one foot and bring the sole of your other foot to your inner thigh or calf, never the knee. Press your palms together at your heart, or reach them up like branches. Even just 30 seconds of this each day has been shown to improve coordination and core stability. Find your breath, find your gaze, find your stillness. Let's work on your coordination!",
+    "localizedNames": {
+      "fr": "La Posture de l'Arbre",
+      "es": "La Postura del Árbol",
+      "pt": "Postura da Árvore"
+    },
+    "localizedCoachCues": {
+      "fr": "Testons cet équilibre — transférez votre poids sur un pied et posez la plante de l'autre pied sur votre cuisse interne ou votre mollet, jamais sur le genou. Joignez vos paumes devant le cœur, ou levez-les comme des branches. Même 30 secondes par jour de cet exercice améliore la coordination et la stabilité du tronc. Trouvez votre souffle, trouvez votre regard, trouvez votre calme.",
+      "es": "Probemos ese equilibrio — transfiere tu peso a un pie y lleva la planta del otro pie a tu muslo interior o pantorrilla, nunca a la rodilla. Junta las palmas frente al corazón, o extiéndelas como ramas. Incluso 30 segundos de esto al día mejora la coordinación y la estabilidad del core. Encuentra tu respiración, encuentra tu mirada, encuentra tu quietud.",
+      "pt": "Vamos testar o equilíbrio — transfira seu peso para um pé e leve a planta do outro pé para a coxa interna ou a panturrilha, nunca para o joelho. Una as palmas na frente do coração, ou estenda-as como galhos. Mesmo 30 segundos disso por dia melhora a coordenação e a estabilidade do core. Encontre sua respiração, encontre seu olhar, encontre sua quietude."
+    }
   },
   {
     "id": "22222222-0000-0000-0000-000000000001",
@@ -45,7 +95,17 @@
     "category": "Pilates",
     "durationSeconds": 120,
     "imageName": "pilates_hundred",
-    "coachCue": "Here we go — lie back, hug your knees in, and curl your head and shoulders up. Legs out to 45 degrees, arms pumping in small, tight pulses. In for five... out for five. The Hundred warms up your entire core while training your body to breathe with intention — it's the classic Pilates opener for a reason. This exercise works your core muscles. Keep that navel pulled in tight — you've got this!"
+    "coachCue": "Here we go — lie back, hug your knees in, and curl your head and shoulders up. Legs out to 45 degrees, arms pumping in small, tight pulses. In for five... out for five. The Hundred warms up your entire core while training your body to breathe with intention — it's the classic Pilates opener for a reason. This exercise works your core muscles. Keep that navel pulled in tight — you've got this!",
+    "localizedNames": {
+      "fr": "Les Cent",
+      "es": "Los Cien",
+      "pt": "Os Cem"
+    },
+    "localizedCoachCues": {
+      "fr": "C'est parti — allongez-vous, serrez les genoux contre vous et relevez la tête et les épaules. Jambes à 45 degrés, bras pompant en petites impulsions serrées. Inspirez pour cinq... expirez pour cinq. Les Cent réchauffe tout le centre du corps tout en entraînant votre respiration intentionnelle — c'est l'exercice d'ouverture classique du Pilates pour une raison. Gardez le nombril bien rentré — vous y arrivez !",
+      "es": "Vamos — recuéstate, abraza tus rodillas y levanta la cabeza y los hombros. Piernas a 45 grados, brazos bombeando en pequeños pulsos. Inhala para cinco... exhala para cinco. Los Cien calienta todo tu core mientras entrena tu respiración consciente — es el ejercicio clásico de apertura de Pilates por algo. Mantén el ombligo bien adentro — ¡lo tienes!",
+      "pt": "Vamos lá — deite de costas, abrace os joelhos e levante a cabeça e os ombros. Pernas a 45 graus, braços bombeando em pequenos pulsos. Inspire contando cinco... expire contando cinco. Os Cem aquece todo o seu core enquanto treina a respiração intencional — é o exercício clássico de abertura do Pilates por uma razão. Mantenha o umbigo bem para dentro — você consegue!"
+    }
   },
   {
     "id": "22222222-0000-0000-0000-000000000002",
@@ -53,7 +113,17 @@
     "category": "Pilates",
     "durationSeconds": 45,
     "imageName": "pilates_rollup",
-    "coachCue": "Lie all the way flat, arms stretched up overhead. Breathe in... and on a long exhale, peel your spine off the mat one vertebra at a time, reaching forward past your toes. Take your time — there's no rush here. The Roll Up activates your deep abdominals far more than a regular sit-up ever could. When you're pushing yourself, remember to keep breathing. Work towards strong, firm abs!"
+    "coachCue": "Lie all the way flat, arms stretched up overhead. Breathe in... and on a long exhale, peel your spine off the mat one vertebra at a time, reaching forward past your toes. Take your time — there's no rush here. The Roll Up activates your deep abdominals far more than a regular sit-up ever could. When you're pushing yourself, remember to keep breathing. Work towards strong, firm abs!",
+    "localizedNames": {
+      "fr": "L'Enroulement",
+      "es": "El Enrollamiento",
+      "pt": "O Enrolamento"
+    },
+    "localizedCoachCues": {
+      "fr": "Allongez-vous complètement à plat, bras étirés au-dessus de la tête. Inspirez... et sur une longue expiration, décollez votre colonne du tapis vertèbre par vertèbre, en vous étirant au-delà de vos orteils. Prenez votre temps — il n'y a pas de précipitation ici. L'Enroulement active vos abdominaux profonds bien plus qu'un simple redressement assis. Travaillez vers des abdominaux forts et fermes !",
+      "es": "Acuéstate completamente plano, brazos estirados sobre la cabeza. Inhala... y en una larga exhalación, despega tu columna de la esterilla vértebra por vértebra, alcanzando más allá de los dedos de los pies. Tómate tu tiempo — no hay prisa aquí. El Enrollamiento activa tus abdominales profundos mucho más que un abdominal normal. ¡Trabaja hacia unos abdominales fuertes y firmes!",
+      "pt": "Deite completamente plano, braços estendidos acima da cabeça. Inspire... e numa longa expiração, destaque sua coluna do tapete vértebra por vértebra, alcançando além dos dedos dos pés. Leve o seu tempo — não há pressa aqui. O Enrolamento ativa seus abdominais profundos muito mais do que um simples abdominal. Trabalhe em direção a abdominais fortes e firmes!"
+    }
   },
   {
     "id": "22222222-0000-0000-0000-000000000003",
@@ -61,7 +131,17 @@
     "category": "Pilates",
     "durationSeconds": 40,
     "imageName": "pilates_single_leg_stretch",
-    "coachCue": "Curl those shoulders up, draw one knee in, and send the other leg long — then switch. Smooth and steady, like a metronome. Keep your lower back pressed firmly into the mat the whole time. This one challenges your core and your coordination at the same time, building the kind of strength you feel in everyday life. Breathe in for two, out for two. Firm up those abs and keep the rhythm going!"
+    "coachCue": "Curl those shoulders up, draw one knee in, and send the other leg long — then switch. Smooth and steady, like a metronome. Keep your lower back pressed firmly into the mat the whole time. This one challenges your core and your coordination at the same time, building the kind of strength you feel in everyday life. Breathe in for two, out for two. Firm up those abs and keep the rhythm going!",
+    "localizedNames": {
+      "fr": "L'Extension d'Une Jambe",
+      "es": "El Estiramiento de Una Pierna",
+      "pt": "Alongamento de Uma Perna"
+    },
+    "localizedCoachCues": {
+      "fr": "Relevez les épaules, ramenez un genou vers vous et tendez l'autre jambe loin — puis alternez. Doux et régulier, comme un métronome. Gardez le bas du dos bien appuyé sur le tapis tout le temps. Cet exercice défie votre centre et votre coordination en même temps. Inspirez pour deux, expirez pour deux. Raffermissez ces abdominaux et maintenez le rythme !",
+      "es": "Levanta esos hombros, lleva una rodilla hacia ti y extiende la otra pierna larga — luego alterna. Suave y constante, como un metrónomo. Mantén la parte baja de la espalda firmemente presionada en la esterilla todo el tiempo. Este ejercicio desafía tu core y tu coordinación al mismo tiempo. Inhala para dos, exhala para dos. ¡Fortalece esos abdominales y mantén el ritmo!",
+      "pt": "Levante os ombros, leve um joelho em direção a você e estenda a outra perna — depois alterne. Suave e constante, como um metrônomo. Mantenha a parte inferior das costas firmemente pressionada no tapete o tempo todo. Este exercício desafia seu core e sua coordenação ao mesmo tempo. Inspire contando dois, expire contando dois. Firme esses abdominais e mantenha o ritmo!"
+    }
   },
   {
     "id": "22222222-0000-0000-0000-000000000004",
@@ -69,7 +149,17 @@
     "category": "Pilates",
     "durationSeconds": 30,
     "imageName": "pilates_plank",
-    "coachCue": "Come on up — hands under shoulders, toes tucked, one long straight line from the crown of your head to your heels. Draw your navel in and up, and don't let those hips sag. Plank works your arms, shoulders, core, and legs all at once — it's one of the most efficient things you can do for your body. Keep breathing, nice and steady. Let's work on building a strong upper body!"
+    "coachCue": "Come on up — hands under shoulders, toes tucked, one long straight line from the crown of your head to your heels. Draw your navel in and up, and don't let those hips sag. Plank works your arms, shoulders, core, and legs all at once — it's one of the most efficient things you can do for your body. Keep breathing, nice and steady. Let's work on building a strong upper body!",
+    "localizedNames": {
+      "fr": "La Planche",
+      "es": "La Plancha",
+      "pt": "A Prancha"
+    },
+    "localizedCoachCues": {
+      "fr": "Montez — mains sous les épaules, orteils repliés, une longue ligne droite du sommet de la tête aux talons. Rentrez le nombril vers le haut, et ne laissez pas les hanches s'affaisser. La Planche travaille les bras, les épaules, le tronc et les jambes en même temps — c'est l'un des exercices les plus efficaces pour votre corps. Continuez à respirer, régulièrement.",
+      "es": "Súbete — manos bajo los hombros, dedos de los pies doblados, una larga línea recta desde la coronilla hasta los talones. Mete el ombligo hacia arriba y no dejes que las caderas se hundan. La Plancha trabaja brazos, hombros, core y piernas a la vez — es uno de los ejercicios más eficientes para tu cuerpo. Sigue respirando, tranquilo y constante.",
+      "pt": "Suba — mãos sob os ombros, dedos dos pés dobrados, uma longa linha reta da coroa da cabeça aos calcanhares. Leve o umbigo para dentro e para cima, e não deixe os quadris afundarem. A Prancha trabalha braços, ombros, core e pernas ao mesmo tempo — é um dos exercícios mais eficientes para o seu corpo. Continue respirando, calmo e constante."
+    }
   },
   {
     "id": "22222222-0000-0000-0000-000000000005",
@@ -77,7 +167,17 @@
     "category": "Pilates",
     "durationSeconds": 35,
     "imageName": "pilates_swan",
-    "coachCue": "Lie on your stomach and place your hands beneath your shoulders. Gently press up and lift your chest forward — rolling your shoulders back and down, away from your ears. Think: proud, open, expansive. Swan undoes the effects of sitting and screen time, opening the front of your body and strengthening the whole length of your spine. Breathe into your chest as you rise. This pose strengthens the back and improves posture!"
+    "coachCue": "Lie on your stomach and place your hands beneath your shoulders. Gently press up and lift your chest forward — rolling your shoulders back and down, away from your ears. Think: proud, open, expansive. Swan undoes the effects of sitting and screen time, opening the front of your body and strengthening the whole length of your spine. Breathe into your chest as you rise. This pose strengthens the back and improves posture!",
+    "localizedNames": {
+      "fr": "Le Plongeon du Cygne",
+      "es": "El Cisne",
+      "pt": "O Cisne"
+    },
+    "localizedCoachCues": {
+      "fr": "Allongez-vous sur le ventre et placez vos mains sous les épaules. Appuyez doucement pour lever la poitrine en avant — en roulant les épaules vers l'arrière et vers le bas, loin des oreilles. Pensez : fier, ouvert, expansif. Le Cygne annule les effets de la position assise, ouvre l'avant de votre corps et renforce toute la longueur de votre colonne. Respirez dans votre poitrine en montant.",
+      "es": "Acuéstate boca abajo y coloca las manos bajo los hombros. Presiona suavemente hacia arriba y levanta el pecho hacia adelante — rodando los hombros hacia atrás y hacia abajo, lejos de las orejas. Piensa: orgulloso, abierto, expansivo. El Cisne deshace los efectos de estar sentado, abre el frente de tu cuerpo y fortalece toda la longitud de tu columna. Respira hacia el pecho al subir.",
+      "pt": "Deite de bruços e coloque as mãos sob os ombros. Pressione suavemente para cima e levante o peito para frente — rolando os ombros para trás e para baixo, longe das orelhas. Pense: orgulhoso, aberto, expansivo. O Cisne desfaz os efeitos de ficar sentado, abre a parte frontal do seu corpo e fortalece toda a extensão da coluna. Respire para o peito ao subir."
+    }
   },
   {
     "id": "11111111-0000-0000-0000-000000000006",
@@ -85,7 +185,17 @@
     "category": "Yoga",
     "durationSeconds": 30,
     "imageName": "cobra_pose",
-    "coachCue": "Lying face down, bring your palms under your shoulders and slowly press up — chest forward and up, hips grounded, elbows soft. Cobra strengthens the muscles along your spine and stimulates the abdominal organs. Some yogis even say it helps with digestion! Inhale deeply as you lift and expand... exhale to ease back down with care. Feel the stretch through your spine — you're doing great!"
+    "coachCue": "Lying face down, bring your palms under your shoulders and slowly press up — chest forward and up, hips grounded, elbows soft. Cobra strengthens the muscles along your spine and stimulates the abdominal organs. Some yogis even say it helps with digestion! Inhale deeply as you lift and expand... exhale to ease back down with care. Feel the stretch through your spine — you're doing great!",
+    "localizedNames": {
+      "fr": "La Posture du Cobra",
+      "es": "La Postura de la Cobra",
+      "pt": "Postura da Cobra"
+    },
+    "localizedCoachCues": {
+      "fr": "Allongé sur le ventre, amenez vos paumes sous les épaules et montez doucement — poitrine en avant et vers le haut, hanches ancrées, coudes souples. Le Cobra renforce les muscles le long de votre colonne et stimule les organes abdominaux. Certains yogis disent même qu'il aide à la digestion ! Inspirez profondément en vous soulevant... et expirez pour redescendre doucement.",
+      "es": "Acostado boca abajo, lleva las palmas bajo los hombros y sube lentamente — pecho hacia adelante y arriba, caderas en el suelo, codos suaves. La Cobra fortalece los músculos a lo largo de tu columna y estimula los órganos abdominales. ¡Algunos yoguis incluso dicen que ayuda con la digestión! Inhala profundamente al subir... exhala para bajar con cuidado.",
+      "pt": "Deitado de bruços, leve as palmas sob os ombros e suba lentamente — peito para frente e para cima, quadris ancorados, cotovelos suaves. A Cobra fortalece os músculos ao longo da coluna e estimula os órgãos abdominais. Alguns iogues dizem que também ajuda na digestão! Inspire profundamente ao subir... expire para descer com cuidado."
+    }
   },
   {
     "id": "11111111-0000-0000-0000-000000000007",
@@ -93,7 +203,17 @@
     "category": "Yoga",
     "durationSeconds": 40,
     "imageName": "bridge_pose",
-    "coachCue": "Lie on your back, knees bent, feet hip-width apart and flat on the mat. Press firmly through your feet and slowly lift your hips toward the ceiling — squeeze those glutes at the top and hold. Bridge strengthens the entire back side of your body — glutes, hamstrings, and lower back — while releasing tight hip flexors. Your lower body is key for support. Breathe steadily... and hold strong!"
+    "coachCue": "Lie on your back, knees bent, feet hip-width apart and flat on the mat. Press firmly through your feet and slowly lift your hips toward the ceiling — squeeze those glutes at the top and hold. Bridge strengthens the entire back side of your body — glutes, hamstrings, and lower back — while releasing tight hip flexors. Your lower body is key for support. Breathe steadily... and hold strong!",
+    "localizedNames": {
+      "fr": "La Posture du Pont",
+      "es": "La Postura del Puente",
+      "pt": "Postura da Ponte"
+    },
+    "localizedCoachCues": {
+      "fr": "Allongez-vous sur le dos, genoux pliés, pieds à la largeur des hanches à plat sur le tapis. Appuyez fermement sur vos pieds et soulevez lentement les hanches vers le plafond — serrez les fessiers en haut et tenez. Le Pont renforce tout l'arrière du corps — fessiers, ischio-jambiers et bas du dos — tout en libérant les fléchisseurs de la hanche. Respirez régulièrement... et tenez fort !",
+      "es": "Acuéstate boca arriba, rodillas dobladas, pies a la anchura de las caderas y planos sobre la esterilla. Presiona firmemente con los pies y levanta lentamente las caderas hacia el techo — aprieta los glúteos en la cima y mantén. El Puente fortalece toda la parte trasera del cuerpo — glúteos, isquiotibiales y zona lumbar — mientras libera los flexores de cadera. Respira de manera constante... ¡y mantén fuerte!",
+      "pt": "Deite de costas, joelhos dobrados, pés na largura dos quadris e planos no tapete. Pressione firmemente com os pés e levante lentamente os quadris em direção ao teto — aperte os glúteos no topo e segure. A Ponte fortalece toda a parte posterior do corpo — glúteos, isquiotibiais e lombar — enquanto libera os flexores do quadril. Respire de forma constante... e segure firme!"
+    }
   },
   {
     "id": "11111111-0000-0000-0000-000000000008",
@@ -101,7 +221,17 @@
     "category": "Yoga",
     "durationSeconds": 30,
     "imageName": "cat_stretch",
-    "coachCue": "From all fours, exhale slowly as you round your entire spine toward the ceiling — chin tucked, tailbone under, like a startled cat. This gentle movement mobilizes each vertebra on its own, relieves back tension, and improves circulation to the spinal discs. Really breathe all the air out as you round... and hold for just a moment at the top. Stretching your spine will help stimulate your body!"
+    "coachCue": "From all fours, exhale slowly as you round your entire spine toward the ceiling — chin tucked, tailbone under, like a startled cat. This gentle movement mobilizes each vertebra on its own, relieves back tension, and improves circulation to the spinal discs. Really breathe all the air out as you round... and hold for just a moment at the top. Stretching your spine will help stimulate your body!",
+    "localizedNames": {
+      "fr": "L'Étirement du Chat",
+      "es": "El Estiramiento del Gato",
+      "pt": "Alongamento do Gato"
+    },
+    "localizedCoachCues": {
+      "fr": "À quatre pattes, expirez lentement en arrondissant toute votre colonne vers le plafond — menton rentré, coccyx sous, comme un chat effrayé. Ce mouvement doux mobilise chaque vertèbre individuellement, soulage les tensions dorsales et améliore la circulation vers les disques intervertébraux. Expirez vraiment tout l'air en vous arrondissant... et tenez un instant en haut.",
+      "es": "Desde cuatro patas, exhala lentamente mientras redondeas toda tu columna hacia el techo — barbilla metida, cóccix hacia abajo, como un gato asustado. Este suave movimiento moviliza cada vértebra por sí sola, alivia la tensión en la espalda y mejora la circulación hacia los discos espinales. Saca realmente todo el aire al redondear... y mantén un momento en la cima.",
+      "pt": "A partir de quatro apoios, expire lentamente enquanto arredonda toda a sua coluna em direção ao teto — queixo recolhido, cóccix para baixo, como um gato assustado. Esse movimento suave mobiliza cada vértebra individualmente, alivia a tensão nas costas e melhora a circulação para os discos intervertebrais. Expire todo o ar ao arredondar... e segure por um momento no topo."
+    }
   },
   {
     "id": "11111111-0000-0000-0000-000000000009",
@@ -109,7 +239,17 @@
     "category": "Yoga",
     "durationSeconds": 30,
     "imageName": "cow_stretch",
-    "coachCue": "Now flow the other way — inhale as you drop your belly toward the mat, lift your chest, lift your tailbone, and let your gaze rise gently. Cow Stretch opens the front of your body and is thought to stimulate the kidneys and adrenal glands, giving you a little natural energy boost. Let your inhale be full and wide — really fill up. Feel that beautiful stretch through your spine!"
+    "coachCue": "Now flow the other way — inhale as you drop your belly toward the mat, lift your chest, lift your tailbone, and let your gaze rise gently. Cow Stretch opens the front of your body and is thought to stimulate the kidneys and adrenal glands, giving you a little natural energy boost. Let your inhale be full and wide — really fill up. Feel that beautiful stretch through your spine!",
+    "localizedNames": {
+      "fr": "L'Étirement de la Vache",
+      "es": "El Estiramiento de la Vaca",
+      "pt": "Alongamento da Vaca"
+    },
+    "localizedCoachCues": {
+      "fr": "Maintenant coulez dans l'autre sens — inspirez en laissant tomber le ventre vers le tapis, levez la poitrine, levez le coccyx et laissez le regard se lever doucement. L'Étirement de la Vache ouvre l'avant de votre corps et stimulerait les reins et les glandes surrénales, vous donnant un petit regain d'énergie naturelle. Laissez votre inspiration être pleine et large — remplissez-vous vraiment.",
+      "es": "Ahora fluye al otro lado — inhala mientras dejas caer el vientre hacia la esterilla, levanta el pecho, levanta el cóccix y deja que la mirada suba suavemente. El Estiramiento de la Vaca abre el frente de tu cuerpo y se cree que estimula los riñones y las glándulas suprarrenales, dándote un pequeño impulso de energía natural. Deja que tu inhalación sea completa y amplia — llénate de verdad.",
+      "pt": "Agora flua para o outro lado — inspire enquanto deixa a barriga cair em direção ao tapete, levante o peito, levante o cóccix e deixe o olhar subir suavemente. O Alongamento da Vaca abre a parte frontal do seu corpo e acredita-se que estimula os rins e as glândulas suprarrenais, dando-lhe um pequeno impulso de energia natural. Deixe a inspiração ser plena e larga — realmente se encha."
+    }
   },
   {
     "id": "22222222-0000-0000-0000-000000000006",
@@ -117,7 +257,17 @@
     "category": "Pilates",
     "durationSeconds": 40,
     "imageName": "swimming",
-    "coachCue": "Lie face down, arms long overhead. Lift your arms, chest, and legs off the mat... and flutter. Alternate opposite arm and leg in a quick, controlled rhythm — like you're cutting through water. Swimming builds serious strength through the back, glutes, and hamstrings, while your core holds everything steady. Breathe in for five flutters, out for five. Exercise every day to tone your body!"
+    "coachCue": "Lie face down, arms long overhead. Lift your arms, chest, and legs off the mat... and flutter. Alternate opposite arm and leg in a quick, controlled rhythm — like you're cutting through water. Swimming builds serious strength through the back, glutes, and hamstrings, while your core holds everything steady. Breathe in for five flutters, out for five. Exercise every day to tone your body!",
+    "localizedNames": {
+      "fr": "La Natation",
+      "es": "La Natación",
+      "pt": "A Natação"
+    },
+    "localizedCoachCues": {
+      "fr": "Allongez-vous sur le ventre, bras longs au-dessus de la tête. Levez les bras, la poitrine et les jambes du tapis... et battez des pieds. Alternez bras et jambe opposés dans un rythme rapide et contrôlé — comme si vous fendiez l'eau. La Natation construit une vraie force dans le dos, les fessiers et les ischio-jambiers, pendant que le tronc maintient tout en place. Inspirez pour cinq battements, expirez pour cinq.",
+      "es": "Acuéstate boca abajo, brazos largos sobre la cabeza. Levanta los brazos, el pecho y las piernas de la esterilla... y aletea. Alterna brazo y pierna opuestos en un ritmo rápido y controlado — como si cortaras el agua. La Natación genera una fuerza seria en la espalda, glúteos e isquiotibiales, mientras el core mantiene todo estable. Inhala para cinco aleteos, exhala para cinco.",
+      "pt": "Deite de bruços, braços longos acima da cabeça. Levante os braços, o peito e as pernas do tapete... e bata as pernas. Alterne braço e perna opostos em um ritmo rápido e controlado — como se estivesse cortando a água. A Natação constrói força real nas costas, glúteos e isquiotibiais, enquanto o core mantém tudo estável. Inspire contando cinco batidas, expire contando cinco."
+    }
   },
   {
     "id": "11111111-0000-0000-0000-000000000010",
@@ -125,7 +275,17 @@
     "category": "Yoga",
     "durationSeconds": 35,
     "imageName": "chair_pose",
-    "coachCue": "Feet together — now bend those knees and sink your hips back, like there's an invisible chair behind you just waiting. Arms reach up alongside your ears. Chair Pose builds serious heat and tones the thighs, calves, and glutes deeply. It burns because it works! Time to firm up your thighs and back muscles. Keep breathing... you've got more in you than you think!"
+    "coachCue": "Feet together — now bend those knees and sink your hips back, like there's an invisible chair behind you just waiting. Arms reach up alongside your ears. Chair Pose builds serious heat and tones the thighs, calves, and glutes deeply. It burns because it works! Time to firm up your thighs and back muscles. Keep breathing... you've got more in you than you think!",
+    "localizedNames": {
+      "fr": "La Posture de la Chaise",
+      "es": "La Postura de la Silla",
+      "pt": "Postura da Cadeira"
+    },
+    "localizedCoachCues": {
+      "fr": "Pieds joints — maintenant pliez les genoux et laissez vos hanches reculer, comme s'il y avait une chaise invisible derrière vous. Les bras montent à hauteur des oreilles. La Posture de la Chaise génère une vraie chaleur et tonifie les cuisses, mollets et fessiers en profondeur. Ça brûle parce que ça marche ! Continuez à respirer... vous avez plus en vous que vous ne le pensez !",
+      "es": "Pies juntos — ahora dobla las rodillas y hunde las caderas hacia atrás, como si hubiera una silla invisible detrás de ti esperando. Los brazos suben junto a las orejas. La Postura de la Silla genera un calor serio y tonifica los muslos, pantorrillas y glúteos en profundidad. ¡Duele porque funciona! Sigue respirando... ¡tienes más en ti de lo que crees!",
+      "pt": "Pés juntos — agora dobre os joelhos e afunde os quadris para trás, como se houvesse uma cadeira invisível atrás de você esperando. Os braços sobem ao lado das orelhas. A Postura da Cadeira gera calor real e tonifica coxas, panturrilhas e glúteos em profundidade. Dói porque funciona! Continue respirando... você tem mais em si do que imagina!"
+    }
   },
   {
     "id": "22222222-0000-0000-0000-000000000007",
@@ -133,7 +293,17 @@
     "category": "Pilates",
     "durationSeconds": 40,
     "imageName": "the_roll_over",
-    "coachCue": "Lie on your back and float your legs up to 90 degrees. On a slow exhale, use your deep abdominals to roll your hips off the mat and bring your feet overhead — then lower back down one vertebra at a time, with total control. The Roll-Over massages every vertebra of the spine while building real core strength. When you're working hard, remember to keep breathing — never hold your breath through the roll!"
+    "coachCue": "Lie on your back and float your legs up to 90 degrees. On a slow exhale, use your deep abdominals to roll your hips off the mat and bring your feet overhead — then lower back down one vertebra at a time, with total control. The Roll-Over massages every vertebra of the spine while building real core strength. When you're working hard, remember to keep breathing — never hold your breath through the roll!",
+    "localizedNames": {
+      "fr": "Le Retournement",
+      "es": "El Giro Completo",
+      "pt": "A Virada"
+    },
+    "localizedCoachCues": {
+      "fr": "Allongez-vous sur le dos et faites flotter les jambes à 90 degrés. Sur une lente expiration, utilisez vos abdominaux profonds pour soulever les hanches du tapis et amener les pieds au-dessus de la tête — puis redescendez vertèbre par vertèbre, avec un contrôle total. Le Retournement masse chaque vertèbre de la colonne tout en construisant une vraie force abdominale. N'oubliez jamais de respirer — ne retenez jamais votre souffle pendant le roulé !",
+      "es": "Acuéstate boca arriba y flota las piernas a 90 grados. En una lenta exhalación, usa tus abdominales profundos para elevar las caderas de la esterilla y llevar los pies sobre la cabeza — luego baja vértebra por vértebra, con total control. El Giro Completo masajea cada vértebra de la columna mientras construye una fuerza central real. ¡Recuerda seguir respirando — nunca aguantes la respiración durante el movimiento!",
+      "pt": "Deite de costas e flutue as pernas a 90 graus. Em uma expiração lenta, use os abdominais profundos para elevar os quadris do tapete e levar os pés acima da cabeça — depois desça vértebra por vértebra, com total controle. A Virada massageia cada vértebra da coluna enquanto constrói força real no core. Lembre-se de continuar respirando — nunca segure a respiração durante o movimento!"
+    }
   },
   {
     "id": "22222222-0000-0000-0000-000000000008",
@@ -141,7 +311,17 @@
     "category": "Pilates",
     "durationSeconds": 35,
     "imageName": "rolling_like_a_ball",
-    "coachCue": "Sit back, hug your knees into your chest, and round your spine into a smooth C-curve. Now rock — back to your shoulder blades, forward to balance on your tailbone. Never let your feet touch the mat! This playful move massages the full length of the spine and sharpens your core control. Breathe out as you roll back, in as you return. Let's work on your coordination — and have fun with it!"
+    "coachCue": "Sit back, hug your knees into your chest, and round your spine into a smooth C-curve. Now rock — back to your shoulder blades, forward to balance on your tailbone. Never let your feet touch the mat! This playful move massages the full length of the spine and sharpens your core control. Breathe out as you roll back, in as you return. Let's work on your coordination — and have fun with it!",
+    "localizedNames": {
+      "fr": "Rouler Comme une Balle",
+      "es": "Rodar Como una Pelota",
+      "pt": "Rolar Como uma Bola"
+    },
+    "localizedCoachCues": {
+      "fr": "Asseyez-vous, serrez les genoux contre la poitrine et arrondissez la colonne en une belle courbe en C. Maintenant balancez — en arrière jusqu'aux omoplates, en avant pour vous équilibrer sur le coccyx. Ne laissez jamais vos pieds toucher le tapis ! Ce mouvement ludique masse toute la longueur de la colonne et affine le contrôle du tronc. Expirez en roulant en arrière, inspirez en revenant. Amusez-vous !",
+      "es": "Siéntate, abraza tus rodillas contra el pecho y redondea la columna en una suave curva en C. Ahora balancea — hacia atrás hasta los omóplatos, hacia adelante para equilibrarte en el cóccix. ¡Nunca dejes que los pies toquen la esterilla! Este divertido movimiento masajea toda la longitud de la columna y afina el control del core. Exhala al rodar hacia atrás, inhala al volver. ¡Diviértete!",
+      "pt": "Sente-se, abrace os joelhos contra o peito e arredonde a coluna em uma suave curva em C. Agora balance — para trás até as omoplatas, para frente para equilibrar no cóccix. Nunca deixe os pés tocarem o tapete! Esse movimento lúdico massageia toda a extensão da coluna e aprimora o controle do core. Expire ao rolar para trás, inspire ao voltar. Divirta-se!"
+    }
   },
   {
     "id": "22222222-0000-0000-0000-000000000009",
@@ -149,7 +329,17 @@
     "category": "Pilates",
     "durationSeconds": 40,
     "imageName": "open_leg_rocker",
-    "coachCue": "Balance on your tailbone, hold your ankles, and extend your legs wide into a proud V. Rock back to your shoulder blades... and roll right back up to balance. Keep that V the whole time — no touching the mat! Open Leg Rocker deeply stretches the hamstrings while training the long, supple spinal mobility we all want to hold onto. Exhale back, inhale up. Stabilize your upper body — you're doing amazing!"
+    "coachCue": "Balance on your tailbone, hold your ankles, and extend your legs wide into a proud V. Rock back to your shoulder blades... and roll right back up to balance. Keep that V the whole time — no touching the mat! Open Leg Rocker deeply stretches the hamstrings while training the long, supple spinal mobility we all want to hold onto. Exhale back, inhale up. Stabilize your upper body — you're doing amazing!",
+    "localizedNames": {
+      "fr": "Le Balancier Jambes Ouvertes",
+      "es": "El Balancín de Piernas Abiertas",
+      "pt": "Balanço com Pernas Abertas"
+    },
+    "localizedCoachCues": {
+      "fr": "Équilibrez-vous sur le coccyx, tenez vos chevilles et étendez vos jambes en grand V. Balancez en arrière jusqu'aux omoplates... et remontez en équilibre. Gardez ce V tout le temps — sans toucher le tapis ! Le Balancier Jambes Ouvertes étire profondément les ischio-jambiers tout en entraînant la mobilité vertébrale souple. Expirez vers l'arrière, inspirez vers le haut.",
+      "es": "Equilibra sobre el cóccix, sostén tus tobillos y extiende las piernas en una orgullosa V. Balancea hacia atrás hasta los omóplatos... y vuelve al equilibrio. Mantén esa V todo el tiempo — ¡sin tocar la esterilla! El Balancín de Piernas Abiertas estira profundamente los isquiotibiales mientras entrena la movilidad espinal larga y flexible. Exhala hacia atrás, inhala hacia arriba.",
+      "pt": "Equilibre no cóccix, segure os tornozelos e estenda as pernas em um V orgulhoso. Balance para trás até as omoplatas... e role de volta ao equilíbrio. Mantenha o V o tempo todo — sem tocar o tapete! O Balanço com Pernas Abertas alonga profundamente os isquiotibiais enquanto treina a mobilidade espinal longa e flexível. Expire para trás, inspire para cima."
+    }
   },
   {
     "id": "22222222-0000-0000-0000-000000000010",
@@ -157,7 +347,17 @@
     "category": "Pilates",
     "durationSeconds": 35,
     "imageName": "saw",
-    "coachCue": "Sit tall, legs wide, arms stretched out to your sides. Rotate your torso and reach your front hand toward your opposite little toe — like you're sawing it off — exhaling every last bit of air as you go. The Saw wrings tension from your spine and gives your organs a gentle refresh, making it one of the most satisfying exercises in Pilates. Big inhale as you sit back up tall. Exercise every day to tone your body!"
+    "coachCue": "Sit tall, legs wide, arms stretched out to your sides. Rotate your torso and reach your front hand toward your opposite little toe — like you're sawing it off — exhaling every last bit of air as you go. The Saw wrings tension from your spine and gives your organs a gentle refresh, making it one of the most satisfying exercises in Pilates. Big inhale as you sit back up tall. Exercise every day to tone your body!",
+    "localizedNames": {
+      "fr": "La Scie",
+      "es": "La Sierra",
+      "pt": "A Serra"
+    },
+    "localizedCoachCues": {
+      "fr": "Asseyez-vous grand, jambes écartées, bras tendus sur les côtés. Faites pivoter le torse et atteignez la main avant vers l'auriculaire opposé — comme si vous le sciiez — en expirant jusqu'au dernier souffle. La Scie tord la tension de votre colonne et offre à vos organes un doux rafraîchissement. Grande inspiration en vous redressant.",
+      "es": "Siéntate erguido, piernas abiertas, brazos estirados a los lados. Rota el torso y alcanza tu mano delantera hacia el meñique del pie opuesto — como si lo estuvieras serrando — exhalando hasta el último bit de aire. La Sierra exprime la tensión de tu columna y da a tus órganos un suave refresco. Gran inhalación al volver a sentarte erguido.",
+      "pt": "Sente-se ereto, pernas abertas, braços estendidos para os lados. Gire o tronco e alcance a mão da frente em direção ao dedo mindinho do pé oposto — como se estivesse serrando — expirando até o último sopro de ar. A Serra retira a tensão da sua coluna e dá aos órgãos um suave refresco. Grande inspiração ao se sentar ereto novamente."
+    }
   },
   {
     "id": "22222222-0000-0000-0000-000000000011",
@@ -165,7 +365,17 @@
     "category": "Pilates",
     "durationSeconds": 35,
     "imageName": "double_leg_kick",
-    "coachCue": "Lie on your stomach, hands clasped at the small of your back. Exhale as you pulse both heels toward your glutes — one, two — then inhale and extend your legs long, lifting your chest and arms back, opening wide through the shoulders. Double Leg Kick fires up the glutes and hamstrings and is a wonderful stretch for anyone who sits at a desk. Keep that breathing rhythmic. Time to firm up your thighs and back muscles — let's go!"
+    "coachCue": "Lie on your stomach, hands clasped at the small of your back. Exhale as you pulse both heels toward your glutes — one, two — then inhale and extend your legs long, lifting your chest and arms back, opening wide through the shoulders. Double Leg Kick fires up the glutes and hamstrings and is a wonderful stretch for anyone who sits at a desk. Keep that breathing rhythmic. Time to firm up your thighs and back muscles — let's go!",
+    "localizedNames": {
+      "fr": "Le Double Coup de Pied",
+      "es": "La Patada Doble",
+      "pt": "O Chute Duplo"
+    },
+    "localizedCoachCues": {
+      "fr": "Allongez-vous sur le ventre, mains jointes dans le bas du dos. Expirez en pulsant les deux talons vers les fessiers — un, deux — puis inspirez et étendez les jambes, en levant la poitrine et les bras vers l'arrière, en ouvrant largement les épaules. Le Double Coup de Pied active les fessiers et les ischio-jambiers et est un merveilleux étirement pour ceux qui restent assis. Gardez la respiration rythmée.",
+      "es": "Acuéstate boca abajo, manos unidas en la parte baja de la espalda. Exhala mientras pulsas ambos talones hacia los glúteos — uno, dos — luego inhala y extiende las piernas, levantando el pecho y los brazos hacia atrás, abriendo bien los hombros. La Patada Doble activa glúteos e isquiotibiales y es un estiramiento maravilloso para quienes se sientan en un escritorio. Mantén esa respiración rítmica.",
+      "pt": "Deite de bruços, mãos unidas na parte inferior das costas. Expire enquanto pulsa ambos os calcanhares em direção aos glúteos — um, dois — depois inspire e estenda as pernas, levantando o peito e os braços para trás, abrindo bem os ombros. O Chute Duplo ativa glúteos e isquiotibiais e é um alongamento maravilhoso para quem fica sentado. Mantenha a respiração rítmica."
+    }
   },
   {
     "id": "11111111-0000-0000-0000-000000000011",
@@ -173,6 +383,16 @@
     "category": "Yoga",
     "durationSeconds": 60,
     "imageName": "sun_salutation",
-    "coachCue": "Here we are — the grand finale. Flow through each position with your breath leading the way: reach up to inhale, fold to exhale, step back, lower down, rise through Cobra, lift to Downward Dog, and return. Move with intention, never rushing. A daily Sun Salutation has been shown to improve cardiovascular fitness, flexibility, and mental wellbeing all in one go. Let your breath guide every single movement. That was a great workout — you should be really proud of yourself!"
+    "coachCue": "Here we are — the grand finale. Flow through each position with your breath leading the way: reach up to inhale, fold to exhale, step back, lower down, rise through Cobra, lift to Downward Dog, and return. Move with intention, never rushing. A daily Sun Salutation has been shown to improve cardiovascular fitness, flexibility, and mental wellbeing all in one go. Let your breath guide every single movement. That was a great workout — you should be really proud of yourself!",
+    "localizedNames": {
+      "fr": "La Salutation au Soleil",
+      "es": "El Saludo al Sol",
+      "pt": "Saudação ao Sol"
+    },
+    "localizedCoachCues": {
+      "fr": "Nous y voilà — le grand final. Coulez à travers chaque position avec votre souffle en tête : tendez les bras pour inspirer, pliez pour expirer, reculez, descendez, montez à travers le Cobra, levez en Chien Tête en Bas, et revenez. Bougez avec intention, sans jamais vous précipiter. Une Salutation au Soleil quotidienne améliore la forme cardiovasculaire, la souplesse et le bien-être mental en une seule fois. C'était un excellent entraînement — vous devriez vraiment être fier de vous !",
+      "es": "Aquí estamos — el gran final. Fluye a través de cada posición con la respiración liderando el camino: estira los brazos al inhalar, dobla al exhalar, da un paso atrás, baja, sube a través de la Cobra, elévate al Perro Boca Abajo y regresa. Muévete con intención, sin apresurarte. Un Saludo al Sol diario mejora la salud cardiovascular, la flexibilidad y el bienestar mental. ¡Fue un gran entrenamiento — deberías estar muy orgulloso de ti mismo!",
+      "pt": "Chegamos — o grande final. Flua por cada posição com a respiração guiando o caminho: estenda os braços ao inspirar, dobre ao expirar, dê um passo para trás, desça, suba pela Cobra, eleve para o Cachorro Olhando para Baixo e retorne. Mova-se com intenção, nunca com pressa. Uma Saudação ao Sol diária melhora a aptidão cardiovascular, a flexibilidade e o bem-estar mental. Foi um ótimo treino — você deveria se orgulhar muito de si mesmo!"
+    }
   }
 ]

@@ -55,30 +55,59 @@ struct SettingsView: View {
 
     // ── Derived voice data ──────────────────────────────────────────────────
 
-    /// True when the user has downloaded at least one Enhanced or Premium
-    /// English voice. Used to show/hide the "download better voices" tip.
+    /// The ISO language code for the current device locale (e.g. "fr", "en", "es").
+    private var currentLangCode: String {
+        Locale.current.language.languageCode?.identifier ?? "en"
+    }
+
+    /// True when the user has downloaded at least one Enhanced or Premium voice
+    /// for the current device language. Used to show/hide the "download better voices" tip.
     private var hasHighQualityVoices: Bool {
         AVSpeechSynthesisVoice.speechVoices().contains {
-            $0.language.hasPrefix("en") &&
+            $0.language.hasPrefix(currentLangCode) &&
             ($0.quality == .enhanced || $0.quality == .premium)
         }
     }
 
-    /// All English voices on the device, grouped by quality tier.
+    /// All voices for the current device language, grouped by quality tier.
     /// Premium first (best), then Enhanced, then Compact.
+    /// CGI ANALOGY: Like showing all texture resolutions available for a given
+    /// asset — 4K, 2K, 1K — filtered to the current project's language "asset set".
     private var voiceGroups: [(title: String, voices: [AVSpeechSynthesisVoice])] {
-        let english = AVSpeechSynthesisVoice.speechVoices()
-            .filter { $0.language.hasPrefix("en") }
+        let langVoices = AVSpeechSynthesisVoice.speechVoices()
+            .filter { $0.language.hasPrefix(currentLangCode) && $0.voiceTraits != .isNoveltyVoice }
 
-        let premium  = english.filter { $0.quality == .premium  }.sorted { $0.name < $1.name }
-        let enhanced = english.filter { $0.quality == .enhanced }.sorted { $0.name < $1.name }
-        let compact  = english.filter { $0.quality == .default  }.sorted { $0.name < $1.name }
+        let premium  = langVoices.filter { $0.quality == .premium  }.sorted { $0.name < $1.name }
+        let enhanced = langVoices.filter { $0.quality == .enhanced }.sorted { $0.name < $1.name }
+        let compact  = langVoices.filter { $0.quality == .default  }.sorted { $0.name < $1.name }
 
         var groups: [(String, [AVSpeechSynthesisVoice])] = []
         if !premium.isEmpty  { groups.append(("Premium ★",  premium))  }
         if !enhanced.isEmpty { groups.append(("Enhanced ◆", enhanced)) }
         if !compact.isEmpty  { groups.append(("Compact",    compact))  }
         return groups
+    }
+
+    /// Personal Voice — user-recorded synthetic voices from
+    /// Settings → Accessibility → Personal Voice (iOS 17+).
+    /// Requires AVSpeechSynthesizer.requestPersonalVoiceAuthorization() to have
+    /// been called first, otherwise this list is always empty.
+    private var personalVoices: [AVSpeechSynthesisVoice] {
+        guard #available(iOS 17, *) else { return [] }
+        return AVSpeechSynthesisVoice.speechVoices()
+            .filter { $0.voiceTraits.contains(.isPersonalVoice) }
+            .sorted { $0.name < $1.name }
+    }
+
+    /// A localised path to where the user downloads voices for their language.
+    /// Points to the right language section in iOS Settings automatically.
+    private var voiceDownloadPath: String {
+        switch currentLangCode {
+        case "fr": return String(localized: "voice.download_path.fr")
+        case "es": return String(localized: "voice.download_path.es")
+        case "pt": return String(localized: "voice.download_path.pt")
+        default:   return String(localized: "voice.download_path.en")
+        }
     }
 
     /// Voice groups filtered by the search bar.
@@ -256,12 +285,12 @@ struct SettingsView: View {
                     Label("Free upgrade available", systemImage: "arrow.down.circle.fill")
                         .font(.subheadline.weight(.semibold))
                         .foregroundStyle(.indigo)
-                    Text("You're currently using the basic compact voice. Apple offers free Enhanced and Premium voices that sound dramatically more natural — ideal for a calm yoga coach.")
+                    Text("voice.tip.description")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
-                    Text("To download one:")
+                    Text("voice.tip.how_to")
                         .font(.subheadline.weight(.medium))
-                    Text("Settings → Accessibility → Live Speech → Voices → English\n\nLook for voices marked Enhanced or Premium and tap the ⬇ icon. Ava (Premium) is a great choice for yoga.")
+                    Text(voiceDownloadPath)
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }
@@ -287,6 +316,27 @@ struct SettingsView: View {
             Text("Coach Voice")
         } footer: {
             Text("Auto always uses the best voice you have installed. Download a Premium voice and Auto upgrades instantly — no selection needed.")
+        }
+
+        // Personal Voice — shown first if the user has one recorded.
+        // Requires iOS 17+ and prior authorization via requestPersonalVoiceAuthorization().
+        if !personalVoices.isEmpty {
+            Section {
+                ForEach(personalVoices, id: \.identifier) { voice in
+                    voiceRow(
+                        name: voice.name,
+                        locale: voice.language,
+                        quality: voice.quality,
+                        identifier: voice.identifier,
+                        isSelected: settings.voiceIdentifier == voice.identifier,
+                        settings: settings
+                    )
+                }
+            } header: {
+                Text("Personal Voice 🎙")
+            } footer: {
+                Text("Your personally recorded voice, created in Settings → Accessibility → Personal Voice.")
+            }
         }
 
         // Quality-grouped voice rows.

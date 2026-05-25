@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import AVFoundation
 
 // CGI ANALOGY: `.modelContainer` is the **production vault** — the on-disk
 // database file that stores every Routine and RoutineExercise the user creates.
@@ -47,6 +48,22 @@ struct YogaLatiesApp: App {
                 // it's published at the scene root, any downstream node can
                 // subscribe to it by name without a direct connection wire.
                 .environment(coachSettings)
+                .task {
+                    // Request permission to use Personal Voice (iOS 17+).
+                    // Personal Voice is the user-recorded synthetic voice from
+                    // Settings → Accessibility → Personal Voice. Without this
+                    // request, iOS hides personal voices from speechVoices()
+                    // entirely — they simply don't appear in the list.
+                    // The system shows a one-time permission prompt; after the
+                    // user approves, personal voices become available immediately.
+                    //
+                    // CGI ANALOGY: Like requesting access to a locked asset
+                    // library — until the studio grants permission, the render
+                    // farm can't even see those files exist.
+                    if #available(iOS 17, *) {
+                        await AVSpeechSynthesizer.requestPersonalVoiceAuthorization()
+                    }
+                }
         }
         // Register both @Model types so SwiftData knows their full schema.
         .modelContainer(for: [Routine.self, RoutineExercise.self])

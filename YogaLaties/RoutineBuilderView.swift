@@ -388,7 +388,7 @@ struct BuilderExerciseRow: View {
             // iOS edit-mode controls (delete circle + reorder handle) from
             // squeezing the text to one character per line.
             VStack(alignment: .leading, spacing: 3) {
-                Text(entry.exercise.name)
+                Text(entry.exercise.displayName)
                     .font(.body)
                     .fontWeight(.medium)
                     .lineLimit(1)

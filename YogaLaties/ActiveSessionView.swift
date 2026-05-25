@@ -243,7 +243,7 @@ struct ActiveSessionView: View {
                 .transition(.opacity.combined(with: .scale(scale: 0.80)))
                 .id("icon-\(exercise.id)")
 
-            Text(exercise.name)
+            Text(exercise.displayName)
                 .font(.title)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
@@ -440,7 +440,7 @@ struct ActiveSessionView: View {
                 Text("Next up")
                     .font(.caption2)
                     .foregroundStyle(.secondary)
-                Text(exercise.name)
+                Text(exercise.displayName)
                     .font(.subheadline)
                     .fontWeight(.medium)
             }

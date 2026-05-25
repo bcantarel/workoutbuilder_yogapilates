@@ -176,7 +176,7 @@ struct RoutineDetailView: View {
             ExerciseImageView(exercise: ex, size: 40)
 
             VStack(alignment: .leading, spacing: 4) {
-                Text(ex.name)
+                Text(ex.displayName)
                     .font(.body)
                     .fontWeight(.medium)
 

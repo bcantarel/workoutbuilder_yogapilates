@@ -90,11 +90,11 @@ final class CoachSettings {
     //
     // resolvedVoice is what VoiceCoach actually passes to every utterance.
     //
-    // The old behaviour was: if no voice chosen → AVSpeechSynthesisVoice(language: "en-US")
-    // That always returned the compact "Samantha" voice, even when the user had
-    // downloaded a Premium voice. This fixes it: Auto now climbs the quality
-    // ladder (Premium → Enhanced → system default) so downloaded voices are
-    // used automatically without the user having to select one by name.
+    // When no voice is manually chosen ("Auto"), we detect the device's current
+    // language and try to find the best available voice for that language first.
+    // If no voice exists for that language, we fall back to English.
+    // This means: a French phone automatically gets a French-speaking coach
+    // without the user doing anything — the app just works.
     //
     // CGI ANALOGY: Like a texture-resolution fallback chain — the renderer tries
     // 4K first, drops to 2K if unavailable, then 1K; it never stubbornly serves
@@ -102,18 +102,18 @@ final class CoachSettings {
     //
     var resolvedVoice: AVSpeechSynthesisVoice? {
         guard !voiceIdentifier.isEmpty else {
-            return CoachSettings.bestAvailableEnglishVoice()
+            return CoachSettings.bestAvailableVoiceForCurrentLocale()
         }
-        // User picked a specific voice. Fall back to best-available if it
+        // User picked a specific voice. Fall back to locale-best if it
         // was deleted from the device (e.g. storage reclaimed by iOS).
         return AVSpeechSynthesisVoice(identifier: voiceIdentifier)
-            ?? CoachSettings.bestAvailableEnglishVoice()
+            ?? CoachSettings.bestAvailableVoiceForCurrentLocale()
     }
 
     var selectedVoiceName: String {
         if voiceIdentifier.isEmpty {
             // Show the user what "Auto" actually resolved to.
-            if let auto = CoachSettings.bestAvailableEnglishVoice() {
+            if let auto = CoachSettings.bestAvailableVoiceForCurrentLocale() {
                 return "Auto — \(auto.name)"
             }
             return "Auto (Best Available)"
@@ -122,13 +122,44 @@ final class CoachSettings {
             ?? "Unknown Voice"
     }
 
-    // Returns the highest-quality English voice installed on this device.
-    // Prefers en-US; falls back to any English dialect if en-US has nothing
-    // better than compact.
+    // Returns the highest-quality voice for the device's current language,
+    // falling back to English if no voice is installed for that language.
+    //
+    // Quality ladder: Personal Voice → Premium → Enhanced → Compact → system default.
+    // Personal Voice (the user's own recorded voice) is always preferred first
+    // when one is available, since it's the most personal and intentional choice.
     //
     // CGI ANALOGY: The texture-picker function in a render farm that scans the
     // asset library and returns the highest-res version of the requested map
     // that is actually present on disk.
+    static func bestAvailableVoiceForCurrentLocale() -> AVSpeechSynthesisVoice? {
+        let langCode = Locale.current.language.languageCode?.identifier ?? "en"
+
+        let all = AVSpeechSynthesisVoice.speechVoices()
+            .filter { $0.voiceTraits != .isNoveltyVoice }
+
+        // Personal Voice always wins if one exists (iOS 17+).
+        if #available(iOS 17, *) {
+            if let personal = all.first(where: { $0.voiceTraits.contains(.isPersonalVoice) }) {
+                return personal
+            }
+        }
+
+        // Try voices that match the current device language (e.g. "fr", "es", "pt").
+        let localePool = all.filter { $0.language.hasPrefix(langCode) }
+
+        if !localePool.isEmpty {
+            if let v = localePool.first(where: { $0.quality == .premium  }) { return v }
+            if let v = localePool.first(where: { $0.quality == .enhanced }) { return v }
+            if let v = localePool.first                                      { return v }
+        }
+
+        // No voice for the device language — fall back to English.
+        return bestAvailableEnglishVoice()
+    }
+
+    // Returns the highest-quality English voice installed on this device.
+    // Used as a fallback when the device language has no installed voice.
     static func bestAvailableEnglishVoice() -> AVSpeechSynthesisVoice? {
         let all = AVSpeechSynthesisVoice.speechVoices()
             .filter { $0.language.hasPrefix("en") && $0.voiceTraits != .isNoveltyVoice }

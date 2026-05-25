@@ -45,7 +45,7 @@ struct ExercisePickerView: View {
         guard !searchText.isEmpty else { return allExercises }
         let query = searchText
         return allExercises.filter {
-            $0.name.localizedCaseInsensitiveContains(query) ||
+            $0.displayName.localizedCaseInsensitiveContains(query) ||
             $0.category.rawValue.localizedCaseInsensitiveContains(query)
         }
     }
@@ -136,7 +136,7 @@ struct ExercisePickerView: View {
                 ExerciseImageView(exercise: exercise, size: 40)
 
                 VStack(alignment: .leading, spacing: 3) {
-                    Text(exercise.name)
+                    Text(exercise.displayName)
                         .font(.body)
                         .foregroundStyle(.primary)
 

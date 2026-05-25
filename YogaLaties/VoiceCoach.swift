@@ -90,7 +90,7 @@ final class VoiceCoach {
         // A small pitch bump (×1.05) gives it a slight emphasis, like a
         // teacher announcing the next move before explaining it.
         synthesizer.speak(makeUtterance(
-            text:     exercise.name + ".",
+            text:     exercise.displayName + ".",
             rate:     settings.speechRate,
             pitch:    min(settings.pitchMultiplier * 1.05, 1.3),
             preDelay: 0.15
@@ -101,7 +101,7 @@ final class VoiceCoach {
         // hearing the pose name and receiving the instruction, matching how
         // a real yoga teacher would pause to let the student settle.
         synthesizer.speak(makeUtterance(
-            text:     exercise.coachCue,
+            text:     exercise.displayCoachCue,
             rate:     settings.speechRate,
             pitch:    settings.pitchMultiplier,
             preDelay: 0.55
@@ -115,7 +115,7 @@ final class VoiceCoach {
     /// exercise's stop() call cleanly discards it.
     func announceBreathingReminder() {
         synthesizer.speak(makeUtterance(
-            text:     "Keep that breath flowing... you're doing beautifully.",
+            text:     String(localized: "coach.breathing_reminder"),
             rate:     max(settings.speechRate * 0.95, 0.25),   // fractionally softer
             pitch:    settings.pitchMultiplier * 0.97,          // just a touch lower
             preDelay: 0.3
@@ -126,8 +126,8 @@ final class VoiceCoach {
     /// Interrupts ongoing speech — this cue is time-sensitive.
     func announceTenSecondWarning(nextExercise: Exercise?) {
         let text = nextExercise != nil
-            ? "10 more seconds — almost there!"
-            : "10 seconds — finish strong!"
+            ? String(localized: "coach.ten_second_warning_with_next")
+            : String(localized: "coach.ten_second_warning_last")
         stop()
         synthesizer.speak(makeUtterance(
             text:     text,
@@ -142,9 +142,11 @@ final class VoiceCoach {
     func announceCountdownWarning(nextExercise: Exercise?) {
         let text: String
         if let next = nextExercise {
-            text = "5 seconds. Next up — \(next.name)."
+            // Uses the exercise's localized name so the coach speaks naturally
+            // in the device language (e.g. "La Montagne" on a French phone).
+            text = "5 seconds. Next up — \(next.displayName)."
         } else {
-            text = "5 seconds. Last one — finish strong!"
+            text = String(localized: "coach.five_second_warning_last")
         }
 
         stop()
@@ -160,8 +162,11 @@ final class VoiceCoach {
     /// Pitch nudged up ×1.10 for a warm, celebratory tone.
     func announceWorkoutComplete(routineName: String) {
         stop()
+        // String(format:) inserts the routine name into the localized template,
+        // e.g. "Séance terminée ! Bravo pour avoir accompli %@." → "...Morning Flow."
+        let text = String(format: String(localized: "coach.workout_complete"), routineName)
         synthesizer.speak(makeUtterance(
-            text:     "Workout complete! Great job finishing \(routineName).",
+            text:     text,
             rate:     settings.speechRate,
             pitch:    min(settings.pitchMultiplier * 1.10, 1.3),
             preDelay: 0.2

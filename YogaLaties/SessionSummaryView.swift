@@ -314,7 +314,7 @@ struct SessionSummaryView: View {
                 ExerciseImageView(exercise: exercise, size: 32)
 
                 // Name.
-                Text(exercise.name)
+                Text(exercise.displayName)
                     .font(.subheadline)
                     .fontWeight(.medium)
 
